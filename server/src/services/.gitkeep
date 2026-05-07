@@ -1,0 +1,9 @@
+# Services
+Business logic and reusable functions will go here.
+
+Example structure:
+- authService.js (authentication logic)
+- emailService.js (email sending)
+- claudeService.js (AI resume parsing)
+- cloudinaryService.js (file upload)
+- studentService.js (student-related business logic)

@@ -1,0 +1,8 @@
+# Middlewares
+Custom middleware functions will go here.
+
+Example structure:
+- authMiddleware.js (JWT verification)
+- validationMiddleware.js (request validation)
+- errorHandler.js (centralized error handling)
+- uploadMiddleware.js (file upload handling)

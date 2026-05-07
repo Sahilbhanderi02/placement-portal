@@ -1,0 +1,8 @@
+# Controllers
+Route handlers and business logic will go here.
+
+Example structure:
+- authController.js
+- studentController.js
+- companyController.js
+- jobController.js

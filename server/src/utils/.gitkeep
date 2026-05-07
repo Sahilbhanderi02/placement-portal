@@ -1,0 +1,8 @@
+# Utils
+Helper functions and utilities will go here.
+
+Example structure:
+- responseHandler.js (standardized API responses)
+- validators.js (input validation helpers)
+- constants.js (application constants)
+- logger.js (logging utility)

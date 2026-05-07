@@ -5,7 +5,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -26,6 +25,12 @@ app.get('/', (req, res) => {
   res.json({ message: 'Welcome to Placement Portal API' });
 });
 
+// API Routes will be added here
+// app.use('/api/auth', authRoutes);
+// app.use('/api/students', studentRoutes);
+// app.use('/api/companies', companyRoutes);
+// app.use('/api/jobs', jobRoutes);
+
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({ error: 'Route not found' });
@@ -40,7 +45,4 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}`);
-  console.log(`📍 Health check: http://localhost:${PORT}/api/health`);
-});
+export default app;

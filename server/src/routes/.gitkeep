@@ -1,0 +1,9 @@
+# Routes
+API route definitions will go here.
+
+Example structure:
+- authRoutes.js
+- studentRoutes.js
+- companyRoutes.js
+- jobRoutes.js
+- adminRoutes.js
